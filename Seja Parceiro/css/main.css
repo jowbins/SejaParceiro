@@ -1,0 +1,9 @@
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./custom-head-footer.css);
+@import url(./responsive-head-footer.css);
+@import url(./seja-parceiro.css);
+@import url(./owl/owl.carousel.min.css);
+@import url(./owl/owl.theme.default.min.css);
+@import url(./magnific-popup.css);

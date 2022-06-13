@@ -1,0 +1,7 @@
+:root {
+    --gradient: linear-gradient(to right, #db6659, #a767d3, #6c8bed);
+    --primary: #6c8bed;
+    --primary-dark: #867be1;
+    --secondary: #a767d3;
+    --light: #db6659;
+}

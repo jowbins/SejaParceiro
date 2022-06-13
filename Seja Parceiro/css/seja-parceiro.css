@@ -1,0 +1,50 @@
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+#depoimentos .depoimento {
+    background-color: var(--light);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+
+#depoimentos .depoimento .quote {
+    max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+    color: #aaaaaa;
+}
+
+#depoimentos .depoimento .name span {
+    color: #000;
+    font-weight: 700;
+}
+
+.direita {
+    float: right;
+}
+
+#slider .email {
+    border-radius: 5px;
+    background-color: rgb(130, 106, 211);
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}

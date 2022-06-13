@@ -1,0 +1,91 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    position:relative;
+}
+
+#header .nav-link .gradient-text,
+#header .nav-link:hover,
+#header .active {
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    border-bottom: 2px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 0 #db6659;
+    z-index: 9999;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 15;
+    color: var(--primary-dark);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#contato{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contato ul li:first-child {
+    margin-left: 0;
+}
+
+#contato ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+#contato ul li a:hover {
+    border-bottom: 1px solid var(--light);
+    border-right: 1px solid var(--primary-dark);
+}
+
+#contato ul li img {
+    max-height: 20px;
+}
